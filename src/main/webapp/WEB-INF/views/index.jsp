@@ -55,17 +55,17 @@
 
                 <h1 class="logo"><a href="index.jsp">Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href='<c:url value ="resources/WEB-INF/views/index.jsp"/>'> class="logo"><img src="resources/img/logo.png" alt=""></a>
+                <a href ="views/index.jsp" class="logo"><img src="resources/img/logo.png" alt=""></a>
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Serwis</a></li>
-                        <li><a class="nav-link scrollto" href="#portfolio">Niezbędniki</a></li>
-                        <li class="dropdown"><a href="#hero"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
+                        <li><a class="nav-link scrollto active" href="index">Home</a></li>
+                        <li><a class="nav-link scrollto" href="servicesAskAndQuestion">Serwis</a></li>
+                        <li><a class="nav-link scrollto" href="Pictures">Niezbędniki</a></li>
+                        <li class="dropdown"><a href="index"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Zaloguj się</a></li>
-                                <li><a href="#">Zarejestruj się</a></li>
+                                <li><a href="Login">Zaloguj się</a></li>
+                                <li><a href="Register">Zarejestruj się</a></li>
 
                             </ul>
                         </li>
@@ -212,9 +212,9 @@
                         <div class="col-lg-3 col-md-6 footer-rechts">
                             <h4>Linki</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Serwis</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Niezbędniki</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="servicesAskAndQuestion">Serwis</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="Pictures">Niezbędniki</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                             </ul>

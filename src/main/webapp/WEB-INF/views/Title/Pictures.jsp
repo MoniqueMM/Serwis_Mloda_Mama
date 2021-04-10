@@ -54,17 +54,17 @@
 
                 <h1 class="logo">Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href='<c:url value ="resources/WEB-INF/views/index.html"/>'> class="logo"><img src="resources/img/logo.png" alt=""></a>
+                <a href ="views/index.jsp" class="logo"><img src="resources/img/logo.png" alt=""></a>
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Serwis</a></li>
-                        <li><a class="nav-link scrollto" href="#portfolio">Niezbędniki</a></li>
-                        <li class="dropdown"><a href="#hero"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
+                        <li><a class="nav-link scrollto active" href="index">Home</a></li>
+                        <li><a class="nav-link scrollto" href="servicesAskAndQuestion">Serwis</a></li>
+                        <li><a class="nav-link scrollto" href="Pictures">Niezbędniki</a></li>
+                        <li class="dropdown"><a href="index"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Zaloguj się</a></li>
-                                <li><a href="#">Zarejestruj się</a></li>
+                                <li><a href="LoginPages/Login">Zaloguj się</a></li>
+                                <li><a href="LoginPages/Register">Zarejestruj się</a></li>
 
                             </ul>
                         </li>
@@ -135,12 +135,12 @@
                     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                            <img src="resources/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <img src="resources/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="picturesDetails">
                             <div class="portfolio-info">
                                 <h4>App 1</h4>
                                 <p>App</p>
                                 <a href='<c:url value ="resources/img/portfolio/portfolio-1.jpg"/>' data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href='<c:url value ="resources/img/portfolio/portfolio-details.jsp"/>' class="details-link" title="More Details"><i class="bx bx-link"> </i></a>
+                                <a href='<c:url value ="picturesDetails1"/>' class="details-link" title="Więcej informacji"><i class="bx bx-link"> </i></a>
                             </div>
                         </div>
 
@@ -275,9 +275,9 @@
                         <div class="col-lg-3 col-md-6 footer-rechts">
                             <h4>Linki</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Serwis</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Niezbędniki</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="servicesAskAndQuestion">Serwis</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="Pictures">Niezbędniki</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                             </ul>

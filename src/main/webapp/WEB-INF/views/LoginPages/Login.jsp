@@ -53,19 +53,19 @@
         <header id="header" class="d-flex align-items-center">
             <div class="container d-flex align-items-center justify-content-between">
 
-                <h1 class="logo"><a href='<c:url value ="resources/WEB-INF/views/index.jsp"/>'>Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
+                <h1 class="logo"><a href="index.jsp">Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href='<c:url value ="resources/WEB-INF/views/index.jsp"/>'> class="logo"><img src="resources/img/logo.png" alt=""></a>
+                <a href ="views/index.jsp" class="logo"><img src="resources/img/logo.png" alt=""></a>
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Serwis</a></li>
-                        <li><a class="nav-link scrollto" href="#portfolio">Niezbędniki</a></li>
-                        <li class="dropdown"><a href="#hero"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
+                        <li><a class="nav-link scrollto active" href="index">Home</a></li>
+                        <li><a class="nav-link scrollto" href="servicesAskAndQuestion">Serwis</a></li>
+                        <li><a class="nav-link scrollto" href="Pictures">Niezbędniki</a></li>
+                        <li class="dropdown"><a href="indexv"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Zaloguj się</a></li>
-                                <li><a href="#">Zarejestruj się</a></li>
+                                <li><a href="Login">Zaloguj się</a></li>
+                                <li><a href="Register">Zarejestruj się</a></li>
 
                             </ul>
                         </li>
@@ -86,10 +86,10 @@
                 <form action="forms/notify.php" method="post" role="form" class="php-email-form">
                     <div class="row no-gutters">
                         <div class="col-md-6 form-group pr-md-1">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Imię" required>
+                            <input type="text" name="name" class="form-control" id="email" placeholder="E-mail" required>
                         </div>
                         <div class="col-md-6 form-group pl-md-1">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="e-mail" required>
+                            <input type="email" class="form-control" name="email" id="haslo" placeholder="hasło" required>
                         </div>
                     </div>
 
@@ -109,50 +109,7 @@
         <main id="main">
 
             <!-- ======= Featured Services Section ======= -->
-            <section id="featured-services" class="featured-services">
-                <div class="container" data-aos="fade-up">
 
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4 class="title"><a href="">Czy wiesz w jaki sposób przygotować się i co wziąć do szpitala?</a></h4>
-                                <p class="description">Wydaje nam się , że temat jest tak bardzo oczywisty. Oprócz nastawienia psychicznego wystarczy spakować walizkę lub torbę. Niestety sprawa nie jest aż tak prosta. Tu w serwisie oprócz wsparcia znajdziesz istotne informacje
-                                    co spakować, na co zwrócić uwagę. Możesz podzielić się swoimi uwagami, zadawać pytania jak i otrzymać na nie wiele odpowiedzi.
-
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4 class="title"><a href="">Czy jesteś pewny/pewna, że masz wszystko co potrzebujesz w domu aby spokojnie opiekować się maluszkiem?</a></h4>
-                                <p class="description">To tu znajdziesz wiele potrzebnych informacji co warto mieć przy sobie i co da tobie komfort psychiczny jak i fizyczny podczas opieki nad dzieckiem.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4 class="title"><a href="">Myślisz, że wszystko już jest kupione i niczego nie potrzebujesz?</a></h4>
-                                <p class="description">Znajdziesz tutaj wiele informacji na temat niezbędników potrzebnych do opieki nad dzieckiem. </p>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4 class="title"><a href="">Wydaje ci się, że wszystko już masz?</a></h4>
-                                <p class="description">Artykuły potrzebne do opieki nad dzieckiem. To tu znajdziesz wiele informacji na ten temat, możesz zadawać pytania jak i dzielić się swoimi przemyśleniami z innymi rodzicami</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
             <!-- End Featured Services Section -->
 
             <!-- ======= About Section ======= -->
@@ -228,9 +185,9 @@
                         <div class="col-lg-3 col-md-6 footer-rechts">
                             <h4>Linki</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Serwis</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Niezbędniki</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="servicesAskAndQuestion">Serwis</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="Pictures">Niezbędniki</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                             </ul>

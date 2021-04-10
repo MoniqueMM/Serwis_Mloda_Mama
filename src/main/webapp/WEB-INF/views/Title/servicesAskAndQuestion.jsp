@@ -54,18 +54,19 @@
             <div class="container d-flex align-items-center justify-content-between">
 
                 <h1 class="logo"><a href='<c:url value ="resources/WEB-INF/views/index.jsp"/>'>Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
+
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Serwis</a></li>
-                        <li><a class="nav-link scrollto" href="#portfolio">Niezbędniki</a></li>
-                        <li class="dropdown"><a href="#hero"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
+                        <li><a class="nav-link scrollto active" href="index">Home</a></li>
+                        <li><a class="nav-link scrollto" href="servicesAskAndQuestion">Serwis</a></li>
+                        <li><a class="nav-link scrollto" href="Pictures">Niezbędniki</a></li>
+                        <li class="dropdown"><a href="index"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Zaloguj się</a></li>
-                                <li><a href="#">Zarejestruj się</a></li>
+                                <li><a href="LoginPages/Login">Zaloguj się</a></li>
+                                <li><a href="LoginPages/Register">Zarejestruj się</a></li>
 
                             </ul>
                         </li>
@@ -119,7 +120,7 @@
                         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Niezbędnik młodej matki przed narodzinami dziecka</a></h4>
+                                <h4><a href="Post1">Niezbędnik młodej matki przed narodzinami dziecka</a></h4>
                                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                             </div>
                         </div>
@@ -127,7 +128,7 @@
                         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Niezbędnik młodej matki po narodzinach dziecka</a></h4>
+                                <h4><a href="Post2">Niezbędnik młodej matki po narodzinach dziecka</a></h4>
                                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
                             </div>
                         </div>
@@ -135,8 +136,16 @@
                         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Niezbędniki potrzebne do opieki nad dzieckiem</a></h4>
+                                <h4><a href="Post3">Niezbędniki potrzebne do opieki nad dzieckiem</a></h4>
                                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="icon-box">
+                                <div class="icon"><i class="bx bx-file"></i></div>
+                                <h4><a href="Post4">Artykuły potrzebne do opieki nad dzieckiem</a></h4>
+                                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                             </div>
                         </div>
 
@@ -145,14 +154,6 @@
                                 <div class="icon"><i class="bx bx-file"></i></div>
                                 <h4><a href="">Nemo Enim</a></h4>
                                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="icon-box">
-                                <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Artykuły potrzebne do opieki nad dzieckiem</a></h4>
-                                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
                             </div>
                         </div>
 
@@ -223,9 +224,9 @@
                         <div class="col-lg-3 col-md-6 footer-rechts">
                             <h4>Linki</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Serwis</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Niezbędniki</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="servicesAskAndQuestion">Serwis</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="Pictures">Niezbędniki</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                             </ul>

@@ -52,19 +52,19 @@
         <header id="header" class="d-flex align-items-center">
             <div class="container d-flex align-items-center justify-content-between">
 
-                <h1 class="logo"><a href='<c:url value ="resources/WEB-INF/index.jsp"/>'>Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
+                <h1 class="logo"><a href="index.jsp">Serwis z Poradami Dla Młodej Mamy<span></span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href='<c:url value ="resources/WEB-INF/views/index.jsp"/>'> class="logo"><img src="resources/img/logo.png" alt=""></a>
+                <a href ="views/index.jsp" class="logo"><img src="resources/img/logo.png" alt=""></a>
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href='<c:url value ="/WEB-INF/views/Title/addAskAndQuestion.jsp"/>'>Home</a></li>
-                        <li><a class="nav-link scrollto" href="#services">Serwis</a></li>
-                        <li><a class="nav-link scrollto" href="#portfolio">Niezbędniki</a></li>
-                        <li class="dropdown"><a href="#hero"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
+                        <li><a class="nav-link scrollto active" href='<c:url value ="Title/Pictures"/>'>Home</a></li>
+                        <li><a class="nav-link scrollto" href="servicesAskAndQuestion">Serwis</a></li>
+                        <li><a class="nav-link scrollto" href="Pictures">Niezbędniki</a></li>
+                        <li class="dropdown"><a href="index"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
                             <ul>
-                                <li><a href="#">Zaloguj się</a></li>
-                                <li><a href="#">Zarejestruj się</a></li>
+                                <li><a href="Login">Zaloguj się</a></li>
+                                <li><a href="Register">Zarejestruj się</a></li>
 
                             </ul>
                         </li>
@@ -90,7 +90,7 @@
                 <div class="col-lg-8">
 
                     <!-- Title -->
-                    <h1 class="logo"><a href='<c:url value ="resources/WEB-INF/views/index.jsp"/>'>Niezbędnik młodej matki przed narodzinami dziecka<span></span></a></h1>
+                    <h1 class="logo"><a href='<c:url value ="index"/>'>Niezbędnik młodej matki przed narodzinami dziecka<span></span></a></h1>
 
                     <!-- Author -->
                     <p class="lead">
@@ -105,8 +105,8 @@
                     <hr>
 
                     <!-- Preview Image -->
-                    <img class="img-fluid rounded" src="assets/img/pregnant-woman-3.jpg" alt="">
-                    <a href="assets/img/pregnant-woman.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                    <img class="img-fluid rounded" src="resources/img/pregnant-woman-3.jpg" alt="">
+                    <a href="resources/img/pregnant-woman.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
 
                     <hr>
 
@@ -137,7 +137,7 @@
                                 <div class="form-group">
                                     <textarea class="form-control" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Wyślij</button>
+                                <button class="btn btn-primary" type="submit">wyślij</button>
                             </form>
                         </div>
                     </div>
@@ -149,6 +149,10 @@
                             <h5 class="mt-0">Commenter Name</h5>
                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                         </div>
+                        <button class="btn btn-primary" type="submit">edytuj</button>
+                        <input class="btn btn-primary" type="button" value ="usuń">
+                        <input class="btn btn-primary" type="submit" value="wyślij">
+
                     </div>
 
                     <!-- Comment with nested comments -->
@@ -324,9 +328,9 @@
                         <div class="col-lg-3 col-md-6 footer-rechts">
                             <h4>Linki</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#services">Serwis</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Niezbędniki</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index">Home</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="servicesAskAndQuestion">Serwis</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="Pictures">Niezbędniki</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
                                 <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
                             </ul>
