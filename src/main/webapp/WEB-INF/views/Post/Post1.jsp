@@ -58,7 +58,7 @@
 
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><a class="nav-link scrollto active" href='<c:url value ="/WEB-INF/views/Title/index_niezbedniki.jsp"/>'>Home</a></li>
+                        <li><a class="nav-link scrollto active" href='<c:url value ="/WEB-INF/views/Title/addAskAndQuestion.jsp"/>'>Home</a></li>
                         <li><a class="nav-link scrollto" href="#services">Serwis</a></li>
                         <li><a class="nav-link scrollto" href="#portfolio">Niezbędniki</a></li>
                         <li class="dropdown"><a href="#hero"><span>O mnie</span> <i class="bi bi-chevron-down"></i></a>
