@@ -129,18 +129,25 @@
 
                     <hr>
 
-                    <!-- Comments Form -->
+                    <!-- Zapisanie Posta do Bazy Comments Form -->
                     <div class="card my-4">
                         <h5 class="card-header">Dodaj komentarz:</h5>
                         <div class="card-body">
-                            <form>
+                            <form action="posts" method="POST">
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="3"></textarea>
+                                    <textarea name="messageContent" id="messageContent" class="form-control" rows="3"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input name="userNick" id="userNick" class="form-control"></input>
                                 </div>
                                 <button class="btn btn-primary" type="submit">wyślij</button>
                             </form>
                         </div>
                     </div>
+
+<!-- Pobranie postów z Bazy i wyświetlenie w pętli -->
+
+<!-- for each (Post message : savedPosts) { -->
 
                     <!-- Single Comment -->
                     <div class="media mb-4">
