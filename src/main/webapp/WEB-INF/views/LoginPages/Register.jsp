@@ -114,7 +114,7 @@
             <div class="form-row">
                 <div class="col-md-6 mb-3">
                     <label for="validationTooltip03">email</label>
-                    <input type="text" class="form-control" id="validationTooltip03" placeholder="Email" required>
+                    <input type="text" class="form-control" id="validationTooltip03" placeholder="Email+" required>
                     <div class="invalid-tooltip">
                         Please provide a valid city.
                     </div>
