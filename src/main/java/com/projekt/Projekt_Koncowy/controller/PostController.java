@@ -2,13 +2,13 @@ package com.projekt.Projekt_Koncowy.controller;
 
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-public class Post {
+public class PostController {
+
+    }
 
 
-
-
-}

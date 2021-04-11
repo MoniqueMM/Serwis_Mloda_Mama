@@ -49,8 +49,5 @@ public class MainController {
         return "picturesDetails/picturesDetails1";
     }
 
-    @RequestMapping(value = {"/welcome"}, method = RequestMethod.GET)
-    public String getWelcome() {
-        return "Login";
-    }
+
 }
